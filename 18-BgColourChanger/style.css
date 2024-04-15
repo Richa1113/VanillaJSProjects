@@ -1,0 +1,48 @@
+body {
+    background : rgb(206, 167, 173)
+}
+
+h1{
+    text-transform: capitalize;
+    text-align: center;
+    margin: 100px;
+}
+.container{
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  top: 200px;
+  left: 400px;
+}
+
+.button{
+    width: 80px;
+    height: 80px;
+    border: 2px solid black;
+    margin: 20px;
+    cursor: pointer;
+}
+
+#red{
+    background: rgb(220, 104, 104);
+}
+
+#white{
+    background: white;
+}
+
+#yellow{
+    background: #e2e244;
+}
+
+#blue{
+    background: rgb(92, 92, 220);
+}
+
+pre{
+    position: absolute;
+    top: 120px;
+    text-align: center;
+    font-size: 15px;
+}
+

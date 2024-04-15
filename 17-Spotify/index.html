@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>spotify</title>
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="style.css">
+    </link>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="../Pictures/spotifyLogo.png" alt="spotify">
+                <span>spotify</span>
+            </li>
+            <li>home</li>
+            <li>about</li>
+        </ul>
+    </nav>
+    <!-- song detail area -->
+    <div class="container">
+        <div class="songlist">
+            <h1>no copyright sounds</h1>
+            <div class="songItemContainer">
+                <div class="songItem">
+                    <img src="../Pictures/raamAyenge.jfif" alt="1">
+                    <span>raam ayenge</span>
+                    <span class="songlistplay"><span class="timestamp">03:43<i><img src="../Pictures/playIcon.png" id="play1"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="../Pictures/raamAyenge.jfif" alt="1" id="song1">
+                    <span>raam ayenge</span>
+                    <span class="songlistplay"><span class="timestamp">03:43<i><img src="../Pictures/playIcon.png" id="play1"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="../Pictures/raamAyenge.jfif" alt="1" id="song1">
+                    <span>raam ayenge</span>
+                    <span class="songlistplay"><span class="timestamp">03:43<i><img src="../Pictures/playIcon.png" id="play1"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="../Pictures/raamAyenge.jfif" alt="1" id="song1">
+                    <span>raam ayenge</span>
+                    <span class="songlistplay"><span class="timestamp">03:43<i><img src="../Pictures/playIcon.png" id="play1"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="../Pictures/raamAyenge.jfif" alt="1" id="song1">
+                    <span>raam ayenge</span>
+                    <span class="songlistplay"><span class="timestamp">03:43<i><img src="../Pictures/playIcon.png" id="play1"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="../Pictures/raamAyenge.jfif" alt="1" id="song1">
+                    <span>raam ayenge</span>
+                    <span class="songlistplay"><span class="timestamp">03:43<i><img src="../Pictures/playIcon.png" id="play1"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="../Pictures/raamAyenge.jfif" alt="1" id="song1">
+                    <span>raam ayenge</span>
+                    <span class="songlistplay"><span class="timestamp">03:43<i><img src="../Pictures/playIcon.png" id="play1"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="../Pictures/raamAyenge.jfif" alt="1" id="song1">
+                    <span>raam ayenge</span>
+                    <span class="songlistplay"><span class="timestamp">03:43<i><img src="../Pictures/playIcon.png" id="play1"></i></span></span>
+                </div>
+            </div>
+        </div>
+        <div class="songbanner"></div>
+    </div>
+    
+    <!-- song play backward forward area -->
+    <div class="bottom">
+        <input type="range" id="myProgressbar" name="range" min="0" max="100">
+        <div class="icons">
+            <!-- fontawesome icons -->
+            <i class="fas fa-3x fa-step-backward"></i>
+            <i class="far fa-3x fa-play-circle" id="masterPlay"></i>
+            <i class="fas fa-3x fa-step-forward"></i>
+        </div>
+        <audio id="audio"><source src="1.mp3" type="audio/mpeg"></audio>
+        <!-- <button type="button" id="playbtn">play audio</button> -->
+        <div class="songInfo">
+            <img src="../Pictures/music.gif" id="gifr">Raam ayenge
+        </div>
+    </div>
+    <script src="app.js"></script>
+    <script src="https://kit.fontawesome.com/3b825232be.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

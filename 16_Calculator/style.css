@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+body{
+    font-family: 'Lato', sans-serif;
+    text-transform: capitalize;
+}
+.text-center{
+    text-align: center;
+    background-color: azure;
+}
+.row{
+    display: flex;
+    padding: 10px 10px;
+    justify-content: center;
+}
+.btn{
+    margin: 0 5px;
+    font-size: 20px;
+    padding: 0 5px;
+    width: 45px;
+    cursor: pointer;
+    border: gray solid 1px;
+    border-radius: 5px;
+}
+.btn:hover{
+    background-color: rgb(232, 226, 226);
+}
+.txt{
+    width: 245px;
+    height: 25px;
+}

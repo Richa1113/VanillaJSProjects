@@ -1,0 +1,142 @@
+body {
+    font-family: var(--ff-secondary);
+    background: var(--clr-grey-10);
+    color: var(--clr-grey-1);
+    line-height: 1.5;
+    font-size: 0.875rem;
+  }
+  /* p {
+    margin-bottom: 1.25rem;
+    color: var(--clr-grey-5);
+  } */
+  main {
+    height: 100%;
+    width: 100%;
+    display: grid;
+    place-items: center;
+    background-color: #e4c5c5;
+    margin-top: 0px;
+  }
+  /* .section {
+    padding: 5rem 0;
+  }
+  
+  .section-center {
+    width: 90vw;
+    margin: 0 auto;
+    max-width: 1170px;
+  } */
+  .title {
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 25px;
+  }
+  .underline {
+    height: 5px;
+    width: 150px;
+    background: #7070bf;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -20px;
+  }
+  .container {
+    width: 600px;
+    height: 600px;
+  }
+  .review {
+    background: grey;
+    padding: 1.5rem 2rem;
+    border-radius: rgb(74, 55, 55);
+    box-shadow:blue;
+    text-align: center;
+  }
+  .review:hover {
+    box-shadow: var(--dark-shadow);
+  }
+  .img-container {
+    position: relative;
+    width: 200px;
+    height: 160px;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-bottom: 1.5rem;
+  }
+  #person-img {
+    width: 10px;
+    display: block;
+    height: 10px;
+    object-fit: cover;
+    border-radius: 50%;
+    position: relative;
+  }
+  /* .img-container::after {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f10e";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 2.5rem;
+    height: 2.5rem;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    transform: translateY(25%);
+    background: var(--clr-primary-5);
+    color: var(--clr-white);
+  }
+  .img-container::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: var(--clr-primary-5);
+    position: absolute;
+    top: -0.25rem;
+    right: -0.5rem;
+    border-radius: 50%;
+  } */
+  #author {
+    margin-bottom: 5px;
+    margin-top: 0px;
+    color: black;
+    text-transform: capitalize;
+  }
+  #job {
+    margin-bottom: 5px;
+    margin-top: 0px;
+    text-transform: uppercase;
+    color: black;
+    font-size: 10px;
+  }
+  #info {
+    margin-bottom: 5px;
+  }
+  .prev-btn,
+  .next-btn {
+  color: black;
+  font-size: 1.25rem;
+  background: transparent;
+  border-color: transparent;
+  margin: 0 0.5rem;
+  transition: var(--transition);
+  cursor: pointer;
+}
+.prev-btn:hover,
+.next-btn:hover {
+  color: var(--clr-primary-5);
+}
+.random-btn {
+  margin-top: 0.5rem;
+  background: var(--clr-primary-10);
+  color: var(--clr-primary-5);
+  padding: 0.25rem 0.5rem;
+  text-transform: capitalize;
+  border-radius: var(--radius);
+  transition: var(--transition);
+  border-color: var(--clr-primary-5);
+  cursor: pointer;
+}
+.random-btn:hover {
+    background: var(--clr-primary-5);
+    color: var(--clr-primary-1);
+  }
